@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: seashell;
+}
+
+.card-wrapper{ 
+    width: 400px;
+    overflow: hidden;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 10px 10px 25px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-img{
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img img{
+    width: 100%;
+    transition: 0.3s all;
+}
+
+.card-img img:hover{
+    transform: scale(1.1);
+}
+
+.imdb-rating{
+    background-color: #deb522;
+    color:#0c0b00;
+    display: inline-block;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rotten-tomatoes-rating{
+    background-color: 	#a94242;
+    color:white;
+    display: inline-block;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-desc p{
+    margin: 10px 0;
+}
+
+.card-desc h1{
+    font-size: 1.7em;
+    margin: 10px 0;
+}
+
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.1em;
+    margin: 20px 0;
+    transition: 0.3s all;
+}
+
+.button:hover{
+    background-color: rgb(255, 130, 108);
+    color: black;
+    letter-spacing: 3px;
+}
